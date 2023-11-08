@@ -1,0 +1,146 @@
+
+button{
+    all: unset;
+}
+input{
+    all: unset;
+}
+
+body {
+    background: #3B1D7B;
+
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 10px;
+}
+
+.Header{
+    display: flex;
+    height: 94px;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+}
+
+h1{
+    color: #FFF;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.Holder{
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 20px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.List{
+    display: flex;
+width: 510px;
+padding: 10px;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+    border-radius: 20px;
+    background: #B4B2FF;
+}
+
+.ListHead{
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: #FFF;
+    font-size: 24px;
+}
+
+.ListContent{
+    display: flex;
+padding: 10px;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+gap: 10px;
+align-self: stretch;
+}
+
+.Item{
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 20px;
+    border: 1px solid #000;
+    background: #FFF;
+    
+}
+
+.CheckButton{
+    width: 50px;
+align-self: stretch;
+border-radius: 20px;
+border: 1px solid #000;
+}
+
+.ItemText{
+    display: flex;
+    padding: 10px;
+    align-items: flex-start;
+    gap: 10px;
+    flex: 1 0 0;
+    border-radius: 20px;
+    background: #8E8CE0;
+    font-size: 20px;
+}
+
+.Done{
+    background: #9FFF9D;
+}
+.Done .ItemText{
+    border-radius: 20px;
+background: #51C58D;
+}
+
+.ListButtons{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.NewItem{
+    width: 100px;
+height: 100px;
+fill: #FFF;
+}
+
+.RemoveList{
+    width: 100px;
+    height: 100px;
+    fill: #FFF;
+}
+
+.NewList{
+    width: 200px;
+    height: 200px;
+    fill: #FFF;
+}
+
+
+
+
